@@ -1,0 +1,32 @@
+body{
+  font:1em Arial, Tahoma;
+  background: #555;
+}
+.container{
+    background: rgba(0,0,0,.3);
+    border-radius: 8px;
+    border:3px solid #fff;
+    color: #fff;
+    width: 250px;
+    height: 150px;
+    margin: 80px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 1.2em;
+    }
+    #myFrame{
+      width: 240px;
+      height: 145px;
+    }
+    #wrapper{
+      perspective: 500px;
+      width: 200px;
+      height: 200px;
+    }
+.first{
+  transform: translate(300px) rotate(-50deg) scale(1.1); /* 1. translate перемешения объекта(принимает два значение по оси х и у 2. Вращение. 3.scale 4. skewX and Y)
+ */
+}
+.second{
+  transform: rotate3d(1,0,-1,-313deg);/* Rotate x y z and 3d 1 or 0 that the same on and off*/
+}

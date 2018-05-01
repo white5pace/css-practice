@@ -1,0 +1,43 @@
+body{
+  font-family: Arial, Tahoma;
+  background: url(http://pattern4site.ru/images/noise/_thumb/10-fon-dlya-sayta.png);
+}
+.container{
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin:40px;
+  background:#999;
+  display: inline-block;
+
+  border-radius: 5px;
+  box-shadow: 0 8px 15px rgba(0, 0,0, .6);
+}
+.first{
+  background: linear-gradient(-45deg,#333, #bbb);
+}
+.second{
+  background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+}
+.third{
+  background: url(krasiVO.jpg) center no-repeat;
+  background-size: 300px 200px;
+  position: relative;
+  overflow: hidden;
+}
+.third:after{
+  content: '';
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  transition: opacity .3s;
+
+  background: repeating-linear-gradient(-45deg, rgba(0,0,0,.3) 4px, rgba(0,0,0,.3) 8px, transparent 8px, transparent 12px),
+  repeating-linear-gradient(45deg, rgba(0,0,0,.3) 4px, rgba(0,0,0,.3) 8px, transparent 8px, transparent 12px);
+}
+.third:hover:after{
+  opacity: 0;
+}

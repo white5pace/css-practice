@@ -1,0 +1,13 @@
+body{
+  font-family: Arial, Tahoma;
+}
+.container{
+  width: 200px;
+  height: 200px;
+  margin:20px;
+  background: #eee;
+  border: 3px dashed #000;/*Ширина рамки. Тип. Цвет рамки  */
+  /*border-width, border-style, border-color*/
+  /*border-top, bottom, right, left*/
+
+}

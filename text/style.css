@@ -1,0 +1,21 @@
+body{
+  background: #ccc;
+  font-family: "PT Sans",Arial, Tahoma;
+  font-size:18px; /* pt, em = % */
+  font-style: italic;
+  text-indent: 30px;
+
+  text-shadow: 1px 1px 0 #eee, 5px 5px 3px #000; /*1.Отступ по гориз, 2.по вертикали 3.размытие 4.цвет тени*/
+}
+.big{
+  text-align: justify;
+  text-decoration: overline;
+  font-weight: bold;
+  font-size: 1.3em;
+  word-spacing: 5px;
+}
+.another{
+  letter-spacing: 3px;
+  text-transform:  capitalize;
+  line-height: 40px;
+}

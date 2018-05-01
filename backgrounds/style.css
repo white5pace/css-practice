@@ -1,0 +1,37 @@
+body{
+  font-family: Arial, Tahoma;
+}
+
+.container{
+  width: 700px;
+  height: 400px;
+  border: 3px solid #999;
+  margin: 20px;
+  background-color: #998899;
+  background-image: url(http://aux4.iconpedia.net/uploads/7578043141755503236.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;/*Горизанталь, вертикаль, центр, так же по пикс*/
+  /*background-attachment: fixed;*/
+  background-size: 200px;/*tak zhe dva znacheniya po gorizantali i verticali*/
+}
+.container2{
+  width: 700px;
+  height: 400px;
+  border: 3px solid #999;
+  margin: 20px;
+  background-image: url(http://aux4.iconpedia.net/uploads/7578043141755503236.png)
+  ,url(http://pattern4site.ru/images/crystal/_thumb/2-fon-svetlyy-kristaly.png);
+  background-repeat: no-repeat, repeat;
+  background-position: bottom right;/*Горизанталь, вертикаль, центр, так же по пикс*/
+  /*background-attachment: fixed;*/
+  background-size: 200px,40px;
+}
+.container3{
+  width: 700px;
+  height: 400px;
+  border: 3px solid #999;
+  margin: 20px;
+  background:/*attachment. color*/ url(http://aux4.iconpedia.net/uploads/7578043141755503236.png) center no-repeat,
+  url(http://pattern4site.ru/images/paper/_thumb/1-fon-dlya-sayta.jpg) 50px;
+
+}

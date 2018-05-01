@@ -1,0 +1,33 @@
+body{
+  font-family: Arial, Tahoma;
+  color:#444;
+}
+.container{
+  background: #ccc;
+  border: 3px solid #777;
+}
+.container::after{
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+img{
+  float: right;
+  height: 350px;
+  width: 500px;
+}
+p{
+  padding: 15px;
+}
+.text1{
+  float: left;
+  width:300px;
+}
+.text2{
+  clear:both;
+  display: none;
+}
+.clear{
+  clear: both;/*Должен быть только блочный элемент*/
+}

@@ -1,0 +1,45 @@
+body{
+  font-family: Arial, Tahoma;
+  background:url(http://pattern4site.ru/images/paper/_thumb/20-fon-dlya-sayta.png) 50px;
+
+}
+.button{
+  display: inline-block;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  background: #333;
+  cursor: pointer;
+  background: url(http://pattern4site.ru/images/paper/_thumb/20-fon-dlya-sayta.png);
+  box-shadow: 0px 3px 20px rgba(0,0,0,.25), inset 0 2px 0 rgb(255,255,255,.4), 0 2px 0 rgba(0, 0,0,.1),inset 0 0 20px rgba(0,0,0,.1);
+  border-radius: 50%;
+}
+.button:hover{
+  box-shadow:inset 0px 0 20px rgba(0,0,0,.2),0 2px 0 rgb(255,255,255,.4),inset 0 2px 0 rgba(0, 0,0,.1);
+
+}
+.button:after{
+  content: '';
+  width: 100px;
+  height: 100px;
+  display: block;
+  opacity: .7;
+}
+.btn-1:after{
+  background:url(https://image.flaticon.com/icons/png/128/784/784686.png) center no-repeat ;
+  background-size: 50px;
+  background-position: 30px;
+}
+.btn-2:after{
+  background:url(https://image.flaticon.com/icons/png/128/784/784687.png) center no-repeat ;
+  background-size: 50px;
+  background-position: 25px;
+}
+.btn-3:after{
+  background:url(https://image.flaticon.com/icons/png/128/784/784675.png) center no-repeat ;
+  background-size: 50px;
+  background-position: 25px;
+}
+.button:hover:after{
+  background-position: center 52%;
+}
